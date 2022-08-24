@@ -1,5 +1,8 @@
+const {sqlForPartialUpdate} = require('./sql');
+
+
 describe("sqlForPartialUpdate", function () {
-    //   test("works: no data", function () {
+ //   test("works: no data", function () {
     //     expect(() => sqlForPartialUpdate({
     //         // no data
     //     })).toThrow(BadRequestError);
